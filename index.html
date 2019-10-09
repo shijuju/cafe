@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>cafe・ド・リシャス</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Ubuntu&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><button class="button button--change" data-text="Home"><a href="index.html">ホームページ</a></button></li>
+				<li><button class="button button--change" data-text="Information"><a href="Information.html">店舗情報</a></button></li>
+				<li><button class="button button--change" data-text="Campaign"><a href="Campaign.html">キャンペーン</a></button></li>
+				<li><button class="button button--change" data-text="Menu"><a href="Menu.html">メニュー</a></button></li>
+				<li><button class="button button--change" data-text="About"><a href="About.html">アバウト</a></button></li>
+			</ul>
+			<div class="logo"><img src="images/logo.png" alt="logo"></div>
+		</nav>
+		<div class="SNS">
+			<ul>
+				<li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+				<li><a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a></li>
+				<li><a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a></li>
+			</ul>
+		</div>
+		</header>
+	<main>
+		<article>
+			<section>
+				<h1>cafe・ド・リシャス</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+			</section>
+			<section>
+				<div>
+					<h1>OPENING TIMES</h1>
+					<p>
+						Mon - Fri: 07.30 — 22.30<br>Saturday: 09.00 — 22.30<br>Sunday: 09.00 — 16.00<br>Bar: Open Mon - Sat till late
+					</p>
+				</div>
+				<div>
+					<h1>OPENING TIMES</h1>
+					<p>
+						EMAIL<br>02 3333 3333<br><div class="pset">〒160-0024<br>東京都新宿区西新宿2丁目33-3</div>
+						<a href=""><p>VIEW MAP</p></a>
+					</p>
+				</div>
+			</section>
+		<div class="more"><a href="Information.html"><h3>View More</h3></a></div>
+		</article>
+		<div class="sale">
+			<span>
+				<a href="Campaign.html">
+				<h3>renewal</h3>
+				<h2>sale</h2>
+				<h3>20% off</h3>
+				</a>
+			</span>
+			<a href="Campaign.html"><img src="images/sale.jpg" alt="sale"></a>
+		</div>
+	</main>
+	
+			<div class="container">
+				<div class="menu"><h2>Menu</h2></div>
+				<div class="grid">
+					<figure class="bubba">
+						<img src="images/1.jpg" alt="img01"/>
+						<figcaption>
+							<h2>Fresh <span>Coffee</span></h2>
+							<p>Bubba likes to appear out of thin air.</p>
+							<a href="" target="_blank">View more</a>
+						</figcaption>			
+					</figure>
+					<figure class="bubba">
+						<img src="images/2.jpg" alt="img02"/>
+						<figcaption>
+							<h2>Fresh <span>Coffee</span></h2>
+							<p>Bubba likes to appear out of thin air.</p>
+							<a href="" target="_blank">View more</a>
+						</figcaption>			
+					</figure>
+					<figure class="bubba">
+						<img src="images/3.jpg" alt="img03"/>
+						<figcaption>
+							<h2>Fresh <span>Coffee</span></h2>
+							<p>Bubba likes to appear out of thin air.</p>
+							<a href="" target="_blank">View more</a>
+						</figcaption>			
+					</figure>
+					<figure class="bubba">
+						<img src="images/4.jpg" alt="img04"/>
+						<figcaption>
+							<h2>Fresh <span>Sweets</span></h2>
+							<p>Bubba likes to appear out of thin air.</p>
+							<a href="" target="_blank">View more</a>
+						</figcaption>			
+					</figure>
+					<figure class="bubba">
+						<img src="images/5.jpg" alt="img05"/>
+						<figcaption>
+							<h2>Fresh <span>Sweets</span></h2>
+							<p>Bubba likes to appear out of thin air.</p>
+							<a href="" target="_blank">View more</a>
+						</figcaption>			
+					</figure>
+					<figure class="bubba">
+						<img src="images/6.jpg" alt="img06"/>
+						<figcaption>
+							<h2>Fresh <span>Sweets</span></h2>
+							<p>Bubba likes to appear out of thin air.</p>
+							<a href="" target="_blank">View more</a>
+						</figcaption>			
+					</figure>
+
+				</div>
+			</div><div class="more"><a href="Menu.html"><h3>View More</h3></a></div>
+	<footer>
+        <p><small>Copyright &copy; 2019 cafe・ド・リシャス. All rights reserved.</small></p>
+    </footer>
+	<div class="return"><i class="fas fa-caret-up"></i></div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+			<script>
+					$('.return').on({
+							'click':function(){
+					$('html,body').animate({scrollTop:0},700);
+					}
+				});
+				$(window).scroll(function(){
+					if($(this).scrollTop()>100){
+					$('.return').fadeIn(400);
+					}else{
+					$('.return').fadeOut(400);
+					}
+				});
+			</script>
+</body>
+</html>
