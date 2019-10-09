@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Information</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Ubuntu&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/Information.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><button class="button button--change" data-text="Home"><a href="index.html">ホームページ</a></button></li>
+				<li><button class="button button--change" data-text="Information"><a href="Information.html">店舗情報</a></button></li>
+				<li><button class="button button--change" data-text="Campaign"><a href="Campaign.html">キャンペーン</a></button></li>
+				<li><button class="button button--change" data-text="Menu"><a href="Menu.html">メニュー</a></button></li>
+				<li><button class="button button--change" data-text="About"><a href="About.html">アバウト</a></button></li>
+			</ul>
+		</nav>
+		<div class="SNS">
+			<ul>
+				<li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+				<li><a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a></li>
+				<li><a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a></li>
+			</ul>
+		</div>
+		</header>
+	<div class="inter">
+		<section>
+		<h1>cafe・ド・リシャス</h1>
+		<h2>OPENING TIMES</h2><p>Mon - Fri: 07.30 — 22.30<br>Saturday: 09.00 — 22.30<br>Sunday: 09.00 — 16.00<br>Bar: Open Mon - Sat till late</p>
+		</section>
+	</div>
+	<main>
+		<div>
+			<h1>cafe・ド・リシャス</h1>
+			<p>新宿三丁目の憩いの場所として、cafe・ド・リシャスは2018年1月にオープンいたしました。店内が大きく、団体専用テーブルも用意しているので団体のお客様も気軽に来店することができます。また、カフェでは珍しい個室を設置しているので会社の打ち合わせなどにも最適です。cafe・ド・リシャスでは、セルフサービスも行っているので自分好みの味にすることができます。もちろん任意ですので、お店おすすめの味をそのまま楽しむこともできます。</p>
+		</div>
+		<div>
+			<img src="images/Info2.jpg" alt="">
+		</div>
+	</main>
+	<div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6480.9918484788905!2d139.68711784472825!3d35.68941197038047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cd4ca00eef1%3A0x88a16ce9397e1993!2zMiBDaG9tZSDopb_mlrDlrr_mlrDlrr_ljLrkuJzkuqzpg70gMTYwLTAwMjM!5e0!3m2!1szh-CN!2sjp!4v1570408731895!5m2!1szh-CN!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+		</div>
+	<footer>
+        <p><small>Copyright &copy; 2019 cafe・ド・リシャス. All rights reserved.</small></p>
+    </footer>
+</body>
+</html>
